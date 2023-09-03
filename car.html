@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>car rental</title>
+  <link rel="stylesheet" href="car.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="logo">
+        <img src="images/pngfind.com.png" alt="">
+        <div><span class="span">Car Rental</span></div>
+      </div>
+      <div class="nav-info">
+        <ul>
+          <a><li>Home</li></a>
+          <a><li>About</li></a>
+          <a><li>Models</li></a>
+          <a><li>Contact</li></a>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="nav-btn1" onclick="loginFunction()"><button> Sign In</button></div>
+        <div class="nav-btn2"><button> Register</button></div>
+    </nav>
+  </header>
+  <section class="first-section">
+    <div class="section-right">
+      <div class="heading-1"> plan your trip now</div>
+      <div class="heading-2">save big with <br>our car<br>rental</div>
+      <div class="pera">rent the car of our dreams.unbeatable<br>price.unlimited miles.flexible pick-up<br>option and
+        much more</div>
+      <div class="section-btn">
+        <div class="btn-book" onclick="myFunction()"><button>Book Ride</button></div>
+        <div class="btn-learn"><button>learn More</button></div>
+      </div>
+    </div>
+    <div class="section-left"><img src="images/Tata_Harrier.png" alt="img"></div>
+  </section>
+  <div id="line"></div>
+  <second-section id="toggle">
+    <div class="wrapper">
+      <h2>Book your car</h2>
+      <div class="custom-select-1">
+        <div class="car-type">
+          <h4>Select your car type</h4>
+          <select>
+            <option value="0">Select car:</option>
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Citroen</option>
+            <option value="4">Ford</option>
+            <option value="5">Honda</option>
+            <option value="6">Jaguar</option>
+            <option value="7">Land Rover</option>
+            <option value="8">Mercedes</option>
+            <option value="9">Mini</option>
+            <option value="10">Nissan</option>
+            <option value="11">Toyota</option>
+            <option value="12">Volvo</option>
+          </select>
+        </div>
+        <div class="pick-up">
+          <h4>Pick-up</h4>
+          <select>
+            <option value="0">Select pick-up location:</option>
+            <option value="1">pune</option>
+            <option value="2">mumbai</option>
+            <option value="3">nashik</option>
+            <option value="4">aurangabad</option>
+            <option value="5">delhi</option>
+            <option value="6">baramati</option>
+            <option value="7">kolhapur</option>
+            <option value="8">jalgaon</option>
+            <option value="9">chalisgaon</option>
+            <option value="10">phaltan</option>
+            <option value="11">daund</option>
+            <option value="12">karjat</option>
+          </select>
+        </div>
+        <div class="drop-of">
+          <h4>Drop-of</h4>
+          <select>
+            <option value="0">Select drop-of location:</option>
+            <option value="1">pune</option>
+            <option value="2">mumbai</option>
+            <option value="3">nashik</option>
+            <option value="4">aurangabad</option>
+            <option value="5">delhi</option>
+            <option value="6">baramati</option>
+            <option value="7">kolhapur</option>
+            <option value="8">jalgaon</option>
+            <option value="9">chalisgaon</option>
+            <option value="10">phaltan</option>
+            <option value="11">daund</option>
+            <option value="12">karjat</option>
+          </select>
+        </div>
+      </div>
+      <div class="custom-select-2">
+        <div class="date">
+          <h4>Pick-up date</h4>
+          <input type="date">
+        </div>
+        <div class="date">
+          <h4>Drop-of date</h4>
+          <input type="date">
+        </div>
+        <div><button>Search</button></div>
+      </div>
+    </div>
+  </second-section>
+  <section class="section">
+    <div class="third">
+      <h2>Plan your trip</h2>
+      <h1>Quick & easy car reantal</h1>
+      <div class="logo-1">
+        <img src="images/27211888.png" alt="img">
+      </div>
+      <h2>select car</h2>
+      <h4>We offers a bigrange of vehicalesfor all your draving needs.We have the perfect carto meet your needs.</h4>
+      <div class="logo-2"><img src="images/clipart1495532.png" alt="img"></div>
+      <h2>Contact operator</h2>
+      <h4>Our knowledgeable and friendly operators are always ready to help with any questions or concerns</h4>
+      <div class="logo-3"><img src="images/1206795553.png" alt="img"></div>
+      <h2>Let's drive</h2>
+      <h4>whether you're hitting the open road.we've got you covered with our wide range of cars</h4>
+    </div>
+  </section>
+  <div id="line"></div>
+      <section id="section-img">
+        <div class="fleet">
+          <h2>Our rental fleet</h2>
+          <h4>choose from avarity of amazing vehicales to rent for your next adventure or business trip</h4>
+        </div>
+      <div class="slider">
+        <div class="images">
+          <input type="radio" name="slide" id="img1" checked>
+          <input type="radio" name="slide" id="img2">
+          <input type="radio" name="slide" id="img3">
+          <input type="radio" name="slide" id="img4">
+          <input type="radio" name="slide" id="img5">
+          <input type="radio" name="slide" id="img6">
+
+          <img src="images/pexels-1.jpg" class="m1" alt="img1">  
+          <img src="images/pexels-2.jpg" class="m2" alt="img2"> 
+          <img src="images/pexels-3.jpg" class="m3" alt="img3"> 
+          <img src="images/pexels-4.jpg" class="m4" alt="img4"> 
+          <img src="images/pexels-5.jpg" class="m5" alt="img5"> 
+          <img src="images/pexels-6.jpg" class="m5" alt="img5">
+              
+        </div>
+        <div class="dots">
+          <label for="img1"></label>
+          <label for="img2"></label>
+          <label for="img3"></label>
+          <label for="img4"></label>
+          <label for="img5"></label>
+          <label for="img6"></label>
+        </div>
+      </div>
+      </section>
+      <div id="line"></div>
+      <div class="last-section">
+        <div class="last-left">
+          <h3>Why choose us</h3>
+          <h1>Best valued deals you<br>Will ever find</h1>
+          <p>Discover the best deals you'll ever find with our unbeatable<br>offers.We're dedicated to providing you
+            with the best value for<br>your money.so you can enjoy top quality services and <br>product without breaking
+            the bank our deals are designed to <br>give you the ultimate renting experience.so don't miss out on<br>your
+            chance to save big.</p>
+          </div>
+          <div class="last-right">
+            <h3>Cross Country Drive</h3>
+            <p>Take your driving experience to the next<br>level with our top-notch vehicales for<br>your cross-country
+              adventures.</p>
+              <h3>All inclusive pricing</h3>
+              <p>Get everything you need in one convenient.<br>transparent price eith our all-inclusive<br> pricing policy.
+              </p>
+              <h3>No hidden charges</h3>
+              <p>Enjoy pace of mind with our no hidden<br>charges policy.We believe in transparent<br>and honest pricing</p>
+            </div>
+      </div>
+      <div class="footer">
+        <footer>
+          <p>Copyright © 2023 car rental. All Rights Reserved.</p>
+        </footer>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("toggle");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        
+        
+        </script>
+</body>
+
+</html>
+
+
+
